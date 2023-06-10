@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Website</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+           <div id="icons">
+                <img src="assets/background.jpeg"/>
+           </div> 
+            
+        </div>
+        <div id="aSide">
+            <img src="assets/background.jpeg" alt="">
+            <model-viewer src="assets/scene.gltf" alt="model robot" auto-rotate camera-controls ar ios-src="assets/scene.gltf"></model-viewer>
+        </div>
+        <div id="content">
+            <h2>Porsche Carrera 4S</h2>
+            <p>The Porsche Carrera is a line of sports cars produced by the German automotive manufacturer Porsche. The Carrera name has been associated with various Porsche models over the years, but it is most commonly recognized as part of the Porsche 911 lineup.</p>
+            <button>Find More</button>
+        </div>
+        <div id="icons">
+            <div id="iconsLogo">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+        <div id="pagination">
+            <div id="leftBtn">
+                <i class="fas fa-angle-left"></i>
+            </div>
+            <div id="rightBtn">
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
